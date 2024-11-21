@@ -1,0 +1,429 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+   }
+.container{
+    width: 1280px;
+    margin: 0 auto;
+}
+.header .container{
+    display: flex;
+    flex-direction: row;
+}
+.header .container .logo img{
+    margin-left: 93px;
+    margin-right: 524px;
+}
+.header .container .podpis{
+    display: flex;
+    flex-direction: row;
+    margin-right: 46px;
+    margin-top: 25px;
+}
+.header .container .podpis p{
+    margin-right: 40px;
+    color: #634038;
+    font-weight: bold;
+    font-size: 17px;
+}
+.header .container .icon{
+    margin-right: 93px;
+    margin-top: 25px;
+}
+
+.selection-one .container h1{
+    position: relative;
+    z-index: 999;
+    margin-top: -46%;
+    margin-left: 20%;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 45%;
+}
+.selection-two .container h1{
+    color: #634038;
+    margin-left: 31%;
+    font-size: 36px;
+    margin-top: 34px;
+
+}
+.selection-two .container p{
+    color: #634038;
+    margin-left: 33%;
+    margin-top: 5px;
+    font-weight: bold;
+}
+.selection-two .container .pervrad{
+    margin-top: 45px;
+    margin-left: 120px;
+}
+.selection-two .container .pervrad img{
+    margin-left: 38px;
+    height: 296px;
+}
+.selection-two .container .vtorrad{
+    margin-top: 45px;
+    margin-left: 120px;
+}
+.selection-two .container .vtorrad img{
+    margin-left: 38px;
+    height: 296px;
+    margin-bottom: 70px;
+}
+.selection-two .container a{
+    position: relative;
+    padding: 10px 20px;
+    background-color: rgb(255, 255, 255);
+    color: #634038;
+    cursor: pointer;
+    font-size: 20px;
+    border-style: solid;
+    margin-left: 43%;
+    margin-top: 67px;
+    border: 2px solid #634038;
+    z-index: 999;
+    font-weight: bold;
+    transition: 300ms ease-in-out;
+}
+.selection-two .container a:hover{
+    background-color:#c767c7;
+    border-color: #c767c7;
+    color: #ffffff;
+    transition: 300ms ease-in-out;
+ }
+.selection-two .container .create-line { 
+    width: 1200px;
+    border-top: 3px solid #634038;
+    margin-top: -20px;
+    margin-left: 90px;
+    margin-bottom: 80px;
+}
+.selection-free .container h1{
+    color: #634038;
+    margin-left: 47%;
+    font-size: 36px;
+}
+.selection-free .container{
+    background-image: url(/assets/img/фон\ пироженные.png);
+    width: 1200px;
+}
+.selection-free .container .str .create-line{
+    border-right: 3px solid #634038;
+}
+.selection-free .container .str{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-bottom: 100px;
+}
+.selection-free .container .str p{
+    font-size: 30px;
+    margin-left: 58px;
+    margin-right: 58px;
+    width: 70%;
+    text-align: center;
+    color: #634038;
+    padding-bottom: 135px;
+}
+.selection-free .container .str i{
+    margin-left: 148px;
+    margin-bottom: 25px;
+    font-size: 40px;
+}
+.selection-free .container .str .pervcol i{
+    margin-left: 165px;
+}
+.selection-free .container .str .twocol i{
+    margin-left: 175px;
+}
+.selection-free .container .str .freecol i{
+    margin-left: 160px;
+}
+.selection-free .container .str .pervcol p{
+    width: 70%;
+}
+.selection-free .container .str .twocol p{
+    width: 70%;
+}
+.selection-free .container .str .freecol p{
+    width: 60%;
+}
+.selection-four .container h1{
+    color: #634038;
+    font-size: 30px;
+    position: relative;
+    z-index: 999;
+    margin-top: -39%;
+    margin-left: 15%;
+    font-weight: bold;
+}
+.selection-four .container p{
+    color: #634038;
+    font-size: 20px;
+    margin-left: 35%;
+    margin-top: 35px;
+    font-weight: bold;
+}
+.selection-four .container .knopka .input-auth{
+    height: 40px;
+    width: 50%;
+    text-align: center;
+    font-weight: bold;
+    color: #634038;
+    border: 2px solid #F049B4;
+    border-radius: 20px;
+    cursor: pointer;
+    background: transparent;
+    margin-top: 41px;
+    font-size: 15px;
+}
+.selection-four .container .knopka .input-auth2{
+    height: 40px;
+    width: 50%;
+    text-align: center;
+    color: #634038;
+    border: 2px solid #F049B4;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    background: transparent;
+    font-size: 15px;
+    margin-top: 30px;
+}
+.selection-four .container .knopka{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 33%;
+}
+.selection-four .container .knopka a{
+    height: 40px;
+    width: 50%;
+    text-align: center;
+    font-weight: bold;
+    color: #634038;
+    border: 2px solid #F049B4;
+    border-radius: 20px;
+    cursor: pointer;
+    background: #F049B4;;
+    margin-top: 30px;
+    padding-top: 9px;
+    font-size: 15px;
+    transition: 300ms ease-in-out;
+}
+.selection-four .container .knopka a:hover{
+    background-color:#c767c7;
+    border-color: #c767c7;
+    color: #ffffff;
+    transition: 300ms ease-in-out;
+ }
+.selection-five .container{
+    margin-top: 150px;
+}
+.selection-five .container h1{
+    color: #634038;
+    font-size: 30px;
+    margin-left: 39%;
+    margin-bottom: 78px;
+    margin-top: 15%;
+}
+.selection-five .container .map{
+    margin-left: 100px;
+    cursor: pointer;
+}
+.selection-five .container .info .podpisi{
+    font-size: 20px;
+    color: #634038;
+}
+.selection-five .container .info .podpisi p{
+    margin-top: 10px;
+    font-weight: bold;
+}
+.selection-five .container .info .icon i{
+    font-size: 20px;
+    color: #634038;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.selection-five .container .info{
+    display: flex;
+    flex-direction: row;
+    margin-left: 165px;
+    margin-top: 65px;
+}
+.selection-five .container .blok{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 68px;
+}
+.footer .container{
+    display: flex;
+    flex-direction: row;
+}
+.footer .container .icon i{
+    font-size: 25px;
+    color: #634038;
+    margin-right: 10px;
+    margin-top: 28px;
+}
+.footer .container .icon{
+    margin-left: 71px;
+    margin-right: 414px;
+}
+.footer .container .logo{
+    margin-right: 325px;
+    margin-top: 5px;
+}
+.footer .container p{
+    font-size: 22px;
+    color: #634038;
+    margin-top: 25px;
+    font-weight: bold;
+}
+.selection-delivery .container .blok{
+    display: flex;
+    font-display: row;
+}
+.selection-delivery .container .blok .text .icon i{
+    font-size: 60px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    margin-right: 47px;
+    margin-top: 10px;
+}
+.selection-delivery .container .blok .text .info h3{
+    font-size: 30px;
+    color: #D22E67;
+    margin-bottom: 5px;
+}
+.selection-delivery .container .blok .text .info p{
+    font-size: 20px;
+    color: #634038;
+    font-weight: 900;
+    margin-bottom: 35px;
+}
+.selection-delivery .container .blok .text{
+    display: flex;
+    font-display: row;
+    margin-top: 30px;
+    margin-left: 10%;
+    margin-bottom: 30px;
+}
+.selection-delivery .container h1{
+    color: #634038;
+    font-weight: 900;
+    margin-left: 37%;
+    margin-bottom: 65px;
+    margin-top: 15px;
+}
+.selection-delivery .container .blok img{
+    height: 500px;
+    width: 400px;
+    margin-top: -20px;
+}
+.selection-seven .container .blok{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+}
+.selection-seven .container .blok .blok1 p{
+    font-size: 15px;
+    color: #634038;
+    font-weight: bolder;
+    text-align: center;
+    width: 60%;
+    margin-bottom: 30px;
+}
+.selection-seven .container .blok .blok2 p{
+    font-size: 15px;
+    color: #634038;
+    font-weight: bolder;
+    text-align: center;
+    width: 70%;
+    margin-bottom: 30px;
+}
+.selection-seven .container .blok .blok3 p{
+    font-size: 15px;
+    color: #634038;
+    font-weight: bolder;
+    text-align: center;
+    width: 70%;
+    margin-bottom: 30px;
+}
+.selection-seven .container .blok .blok1 img{
+    margin-bottom: 10px;
+    margin-left: 20%;
+    margin-top: 30px;
+}
+.selection-seven .container .blok .blok2 img{
+    margin-bottom: 10px;
+    margin-left: 20%;
+    margin-top: 30px;
+}
+.selection-seven .container .blok .blok3 img{
+    margin-bottom: 10px;
+    margin-left: 15%;
+    margin-top: 30px;
+}
+.selection-seven .container .blok .blok2{
+    margin-right: 50px;
+}
+.selection-seven .container .blok .blok1{
+    margin-left: 50px;
+}
+.selection-seven .container .blok .blok3{
+    margin-right: 50px;
+}
+.selection-seven .container h1{
+    color: #634038;
+    font-weight: 900;
+    margin-left: 46%;
+    padding-top: 30px;
+    margin-bottom: 25px;
+
+}
+.selection-seven{
+    background-color: #a9cfe493;
+}
+.selection-seven .container a{
+    height: 40px;
+    width: 50%;
+    text-align: center;
+    font-weight: bold;
+    color: #634038;
+    border: 2px solid #F049B4;
+    border-radius: 20px;
+    cursor: pointer;
+    background: #F049B4;;
+    margin-top: 30px;
+    font-size: 15px;
+    margin-left: 39%;
+    margin-bottom: 50px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-right: 90px;
+    padding-left: 90px;
+    
+}
+.selection-seven .container{
+    margin-top: 20px;
+    padding-bottom: 60px;
+}
+
+.selection-seven .container a:hover{
+    background-color:#c767c7;
+    border-color: #c767c7;
+    color: #ffffff;
+    transition: 300ms ease-in-out;
+ }
